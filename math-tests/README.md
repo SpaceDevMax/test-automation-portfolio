@@ -38,8 +38,8 @@ The `math-tests` directory includes test cases for basic arithmetic and geometri
 
 ## Tests
 
-  test_arithmetic.py: Tests for basic operations (addition, subtraction, multiplication, division).
-  test_geometry.py: Tests for geometry.py.
-  geometry.py: Geometric calculations (rectangle area, circle area).
+  - test_arithmetic.py: Tests for basic operations (addition, subtraction, multiplication, division).
+  - test_geometry.py: Tests for geometry.py.
+  - geometry.py: Geometric calculations (rectangle area, circle area).
 
   
