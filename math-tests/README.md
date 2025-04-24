@@ -1,15 +1,15 @@
 # Math Tests
 
-This subfolder contains automated test scripts for mathematical operations and functions. The tests are designed to validate the correctness of mathematical computations in various scenarios.
+This subfolder contains automated test scripts for mathematical operations and functions. The tests are designed to validate the correctness of mathematical computations in a few scenarios.
 
 ## Overview
 
-The `math-tests` directory includes test cases for basic arithmetic, geometric calculations, and other mathematical utilities. These tests ensure reliability and accuracy in mathematical implementations.
+The `math-tests` directory includes test cases for basic arithmetic and geometric calculations.
 
 ## Prerequisites
 
 - Python 3.8+
-- Required libraries: `pytest`, `numpy` (install via `pip install pytest numpy`)
+- Required library: `pytest` (install via `pip install pytest`)
 
 ## Setup
 
@@ -36,9 +36,10 @@ The `math-tests` directory includes test cases for basic arithmetic, geometric c
   pytest test_arithmetic.py
   ```
 
-## Test Structure
+## Tests
+
   test_arithmetic.py: Tests for basic operations (addition, subtraction, multiplication, division).
-  test_geometry.py: Tests for geometric calculations (area, perimeter, etc.).
-  test_utils.py: Tests for utility functions (factorials, prime checks, etc.).
+  test_geometry.py: Tests for geometry.py.
+  geometry.py: Geometric calculations (rectangle area, circle area).
 
   
