@@ -12,7 +12,7 @@ This repository serves as a central hub to present my test automation projects. 
 - **Description**: Basic math tests for exploring pytest
 - **Technologies**: Python, pytest
 - **Test Types**: Unit tests
-- **Repository**: [test-automation-portfolio/math-tests](https://github.com/SpaceDevMax/test-automation-portfolio)
+- **Repository**: [test-automation-portfolio](https://github.com/SpaceDevMax/test-automation-portfolio)
 - **Highlighted Files**:
     - [test_arithmetic.py](https://github.com/SpaceDevMax/test-automation-portfolio/blob/main/math-tests/test_arithmetic.py)
     - [test_geometry.py](https://github.com/SpaceDevMax/test-automation-portfolio/blob/main/math-tests/test_geometry.py)
