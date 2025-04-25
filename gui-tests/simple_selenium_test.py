@@ -11,10 +11,26 @@ def test_login():
 
     try:
 
-        # open browser and navigate to saucedemo login page 
+        # Ópen browser and navigate to saucedemo login page 
         edgeBrowser.get('https://www.saucedemo.com/')
 
-        time.sleep(5)
+        # Wait until browser loads
+        time.sleep(2)
+
+        # Find input fields and button
+        username_field = edgeBrowser.find_element(By.ID, "user-name")
+        password_field = edgeBrowser.find_element(By.ID, "password")
+        login_button = edgeBrowser.find_element(By.ID, "login-button")
+
+        # Type in username and password
+        username_field.send_keys("standard_user")
+        password_field.send_keys("secret_sauce")
+
+        # Click login button
+        login_button.click()
+
+        # Was login succesful?
+        assert "inventory" in edgeBrowser.current_url, "Login failed!"
 
     except KeyboardInterrupt:
         # Close browser with Ctrl + C
